@@ -16,4 +16,9 @@ public int dividir() {
     public int sumar() {
         return this.valorA + this.valorB;
     }
+public int multiplicar(int valorA, int valorB) {
+        return valorA * valorB;
+    }
+    
+
 }
