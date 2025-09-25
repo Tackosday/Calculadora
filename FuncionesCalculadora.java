@@ -7,4 +7,9 @@ public FuncionesCalculadora(int valorA, int valorB) {
     this.valorA = valorA;
     this.valorB = valorB;
 }
+public int multiplicar(int valorA, int valorB) {
+        return valorA * valorB;
+    }
+    
+
 }
