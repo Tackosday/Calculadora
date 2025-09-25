@@ -7,3 +7,4 @@ public FuncionesCalculadora(int valorA, int valorB) {
     this.valorA = valorA;
     this.valorB = valorB;
 }
+}
