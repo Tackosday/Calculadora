@@ -19,5 +19,11 @@ public class FuncionesCalculadora {
     public int multiplicar() {
         return this.valorA * this.valorB;
     }
-
+    public int potenciacion() {
+    int resultado = 1;
+    for (int i = 0; i < this.valorB; i++) {
+        resultado *= this.valorA;
+        }
+    return resultado;
+    }
 }
