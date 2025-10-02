@@ -19,12 +19,12 @@ public class FuncionesCalculadora {
     public int multiplicar() {
         return this.valorA * this.valorB;
     }
-    
+
     public int potenciacion() {
         int resultado = 1;
         for (int i = 0; i < this.valorB; i++) {
             resultado *= this.valorA;
-            }
+        }
         return resultado;
     }
 
@@ -52,17 +52,15 @@ public class FuncionesCalculadora {
         return this.valorA - this.valorB;
     }
 
-        
-        public int mcm() {
-            int a = this.valorA;
-            int b = this.valorB;
-            int max = Math.max(a, b);
-            int mcm = max;
-            while (mcm % a != 0 || mcm % b != 0) {
-                mcm++;
-            }
-            return mcm;
+    public int mcm() {
+        int a = this.valorA;
+        int b = this.valorB;
+        int max = Math.max(a, b);
+        int mcm = max;
+        while (mcm % a != 0 || mcm % b != 0) {
+            mcm++;
         }
-    
- 
+        return mcm;
+    }
+
 }
